@@ -3,10 +3,11 @@ import { BookMarked } from 'lucide-react';
 
 export function Header() {
   const navItems = [
-    { name: 'Services', href: '#services' },
-    { name: 'Estimate', href: '#estimate' },
-    { name: 'Track Order', href: '#track' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'How It Works', href: '/how-it-works' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'FAQ', href: '/faq' },
   ];
 
   return (
