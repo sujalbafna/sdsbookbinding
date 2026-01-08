@@ -43,7 +43,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="container">
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
-              <Button asChild variant="ghost">
+              <Button asChild>
                 <Link href="/services">
                   <ArrowLeft className="mr-2 h-4 w-4" />
                   Back to All Services
