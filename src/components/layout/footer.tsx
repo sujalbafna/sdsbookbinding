@@ -14,12 +14,12 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-background border-t">
+    <footer className="bg-primary text-primary-foreground">
       <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <Link href="/" className="flex items-center space-x-2">
-              <BookMarked className="h-7 w-7 text-primary" />
-              <span className="font-bold font-headline text-xl text-foreground">Boundless Books</span>
+              <BookMarked className="h-7 w-7" />
+              <span className="font-bold font-headline text-xl">Boundless Books</span>
             </Link>
           
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
@@ -27,18 +27,18 @@ export function Footer() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 {item.name}
               </Link>
             ))}
           </nav>
         </div>
-        <div className="border-t border-border mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground text-center md:text-left">
+        <div className="border-t border-primary-foreground/20 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-sm text-primary-foreground/80 text-center md:text-left">
             &copy; {new Date().getFullYear()} Boundless Books. All rights reserved.
           </p>
-           <p className="text-sm text-muted-foreground mt-4 md:mt-0">
+           <p className="text-sm text-primary-foreground/80 mt-4 md:mt-0">
              Built by your friendly neighborhood AI.
            </p>
         </div>
