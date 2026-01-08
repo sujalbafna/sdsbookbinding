@@ -45,7 +45,7 @@ export function Contact() {
                 <CardContent className="space-y-4 text-muted-foreground">
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 mr-3 mt-1 shrink-0 text-primary" />
-                    <span>123 Bookbinders Lane, Storyville, BK 12345</span>
+                    <span>Gate number-424, Opposite Bhagirathi Mangal Office, Dehu Phata Near Nexus Furniture Stay Post Yalwadi, Taluka Village ,District Pune</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 mr-3 shrink-0 text-primary" />
@@ -82,7 +82,7 @@ export function Contact() {
             <CardContent>
               <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.607498748364!2d-73.9845346242858!3d40.74872397138981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9a4c17b9d%3A0x92f3964923f6a258!2sNew%20York%20Public%20Library-Stephen%20A.%20Schwarzman%20Building!5e0!3m2!1sen!2sus!4v1768000578854!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.931818204!2d73.7812028!3d18.5245648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1768000578854!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
