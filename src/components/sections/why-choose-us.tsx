@@ -26,7 +26,7 @@ const features = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="py-16 sm:py-24 bg-gray-50">
+    <section id="why-choose-us" className="py-16 sm:py-24 animate-bg-pan">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Choose Us?</h2>
@@ -36,7 +36,7 @@ export function WhyChooseUs() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature) => (
-            <Card key={feature.title} className="text-center shadow-md hover:shadow-lg transition-shadow border-0">
+            <Card key={feature.title} className="text-center shadow-md hover:shadow-lg transition-shadow border-0 bg-background/50">
               <CardHeader>
                 <div className="mx-auto bg-primary/10 rounded-full p-4 w-fit">
                   {feature.icon}
