@@ -1,5 +1,11 @@
 import Link from 'next/link';
-import { BookMarked } from 'lucide-react';
+import { BookMarked, Menu } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 
 export function Header() {
   const navItems = [
@@ -31,6 +37,32 @@ export function Header() {
             </Link>
           ))}
         </nav>
+        <div className="md:hidden ml-auto">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon">
+                <Menu className="h-4 w-4" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <nav className="flex flex-col space-y-4 mt-8">
+              <Link href="/" className="flex items-center space-x-2 mb-4">
+                <BookMarked className="h-7 w-7 text-primary" />
+                <span className="font-bold font-headline text-xl">Boundless Books</span>
+              </Link>
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="transition-colors hover:text-primary text-lg"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

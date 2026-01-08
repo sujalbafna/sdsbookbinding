@@ -1,4 +1,4 @@
-import { BookMarked, Mail, Phone, MapPin } from 'lucide-react';
+import { BookMarked } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -15,63 +15,26 @@ export function Footer() {
 
   return (
     <footer className="bg-background border-t">
-      <div className="container py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="flex flex-col space-y-4">
+      <div className="container py-8">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <Link href="/" className="flex items-center space-x-2">
               <BookMarked className="h-7 w-7 text-primary" />
               <span className="font-bold font-headline text-xl text-foreground">Boundless Books</span>
             </Link>
-            <p className="text-muted-foreground text-sm">
-              Crafting Legacies, One Page at a Time.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4 text-foreground">Quick Links</h3>
-            <nav className="flex flex-col space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </nav>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4 text-foreground">Contact Us</h3>
-            <div className="space-y-2 text-sm text-muted-foreground">
-              <p className="flex items-start">
-                <MapPin className="h-4 w-4 mr-2 mt-1 shrink-0" />
-                <span>123 Bookbinders Lane,<br />Storyville, BK 12345</span>
-              </p>
-              <p className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" />
-                <span>(123) 456-7890</span>
-              </p>
-              <p className="flex items-center">
-                <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:contact@boundlessbooks.com" className="hover:text-primary">
-                  contact@boundlessbooks.com
-                </a>
-              </p>
-            </div>
-          </div>
           
-          <div>
-            <h3 className="font-semibold mb-4 text-foreground">Business Hours</h3>
-            <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Monday - Friday: 9am - 5pm</p>
-              <p>Saturday: 10am - 3pm</p>
-              <p>Sunday: Closed</p>
-            </div>
-          </div>
+          <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            {navItems.slice(0, 4).map((item) => ( // Show first 4 items for brevity
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
         </div>
-        <div className="border-t border-border mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-border mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground text-center md:text-left">
             &copy; {new Date().getFullYear()} Boundless Books. All rights reserved.
           </p>
