@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "hero-bg",
+      "description": "A collection of beautifully bound vintage books on a shelf.",
+      "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwYm9va3NoZWxmfGVufDB8fHx8MTc2Nzk0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage bookshelf"
+    },
+    {
       "id": "hardcover-binding",
       "description": "A professionally bound thesis on a wooden table.",
       "imageUrl": "https://images.unsplash.com/photo-1744807868759-b0be87385602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwdGhlc2lzfGVufDB8fHx8MTc2Nzg2NTU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -44,9 +50,9 @@
     },
     {
       "id": "testimonial-bg",
-      "description": "A bookbinder's workshop with tools and materials.",
-      "imageUrl": "https://images.unsplash.com/photo-1549187770-80bf40a43c44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rYmluZGluZyUyMHdvcmtzaG9wfGVufDB8fHx8MTc2Nzg2NzU3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bookbinding workshop"
+      "description": "A cozy, well-lit library corner with a comfortable chair.",
+      "imageUrl": "https://images.unsplash.com/photo-1524567294212-46e677494194?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsaWJyYXJ5JTIwY29ybmVyfGVufDB8fHx8MTc2Nzk0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "library corner"
     },
     {
       "id": "gallery-1",
