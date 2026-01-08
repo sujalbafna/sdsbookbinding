@@ -74,25 +74,6 @@ export function Contact() {
               </Card>
             </div>
           </div>
-
-          <Card className="mt-12">
-            <CardHeader>
-              <CardTitle className="font-headline text-2xl">Find Us</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="aspect-video rounded-lg overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.931818204!2d73.7812028!3d18.5245648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1768000578854!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen={false}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
