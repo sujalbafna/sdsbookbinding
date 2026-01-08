@@ -71,6 +71,25 @@ export function Contact() {
                   <p><span className="font-semibold text-foreground">Sunday:</span> Closed</p>
                 </CardContent>
             </Card>
+            
+            <Card>
+              <CardHeader>
+                <CardTitle className="font-headline text-2xl">Find Us</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.607498748364!2d-73.9845346242858!3d40.74872397138981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9a4c17b9d%3A0x92f3964923f6a258!2sNew%20York%20Public%20Library-Stephen%20A.%20Schwarzman%20Building!5e0!3m2!1sen!2sus!4v1768000578854!5m2!1sen!2sus"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen={false}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
