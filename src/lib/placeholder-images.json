@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "thesis-binding",
+      "description": "A professionally bound thesis on a wooden table.",
+      "imageUrl": "https://images.unsplash.com/photo-1744807868759-b0be87385602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwdGhlc2lzfGVufDB8fHx8MTc2Nzg2NTU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book thesis"
+    },
+    {
+      "id": "report-binding",
+      "description": "A stack of neatly bound corporate reports.",
+      "imageUrl": "https://images.unsplash.com/photo-1621347891240-e856b95ec627?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGFjayUyMGJvb2tzfGVufDB8fHx8MTc2Nzc4OTk1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stack books"
+    },
+    {
+      "id": "custom-book",
+      "description": "A person holding a custom leather-bound book.",
+      "imageUrl": "https://images.unsplash.com/photo-1620672071216-3a509d222bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWF0aGVyJTIwYm9va3xlbnwwfHx8fDE3Njc4NjU1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather book"
+    }
+  ]
 }
