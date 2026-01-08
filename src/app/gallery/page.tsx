@@ -14,7 +14,7 @@ export default function GalleryPage() {
         <section id="gallery" className="py-16 sm:py-24">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-headline font-bold">Gallery</h2>
+              <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Work</h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                 A selection of our craftsmanship and recent projects.
               </p>
