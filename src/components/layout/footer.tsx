@@ -11,7 +11,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t bg-background text-foreground">
+    <footer className="bg-gray-900 text-gray-100">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col space-y-4">
@@ -19,19 +19,19 @@ export function Footer() {
               <BookMarked className="h-7 w-7 text-primary" />
               <span className="font-bold font-headline text-xl">Boundless Books</span>
             </Link>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-gray-400 text-sm">
               Crafting Legacies, One Page at a Time.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-semibold mb-4 text-white">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
                 >
                   {item.name}
                 </Link>
@@ -40,8 +40,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
-            <div className="space-y-2 text-sm text-muted-foreground">
+            <h3 className="font-semibold mb-4 text-white">Contact Us</h3>
+            <div className="space-y-2 text-sm text-gray-400">
               <p className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1 shrink-0" />
                 <span>123 Bookbinders Lane,<br />Storyville, BK 12345</span>
@@ -60,19 +60,19 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Business Hours</h3>
-            <div className="space-y-2 text-sm text-muted-foreground">
+            <h3 className="font-semibold mb-4 text-white">Business Hours</h3>
+            <div className="space-y-2 text-sm text-gray-400">
               <p>Monday - Friday: 9am - 5pm</p>
               <p>Saturday: 10am - 3pm</p>
               <p>Sunday: Closed</p>
             </div>
           </div>
         </div>
-        <div className="border-t mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground text-center md:text-left">
+        <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-sm text-gray-500 text-center md:text-left">
             &copy; {new Date().getFullYear()} Boundless Books. All rights reserved.
           </p>
-           <p className="text-sm text-muted-foreground mt-4 md:mt-0">
+           <p className="text-sm text-gray-500 mt-4 md:mt-0">
              Built by your friendly neighborhood AI.
            </p>
         </div>
