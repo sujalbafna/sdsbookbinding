@@ -2,7 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, BookMarked } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 export function Contact() {
   return (
@@ -28,7 +29,9 @@ export function Contact() {
                 </div>
                 <Input type="text" placeholder="Subject" />
                 <Textarea placeholder="Your Message" rows={5} />
-                <Button type="submit" className="w-full">Send Message</Button>
+                <Button asChild className="w-full">
+                  <a href="mailto:sdspune1@gmail.com">Send Message</a>
+                </Button>
               </form>
             </CardContent>
           </Card>
@@ -45,12 +48,14 @@ export function Contact() {
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 mr-3 shrink-0 text-primary" />
-                  <span>(123) 456-7890</span>
+                  <a href="tel:9850271425" className="hover:text-primary">
+                    9850271425
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3 shrink-0 text-primary" />
-                  <a href="mailto:contact@boundlessbooks.com" className="hover:text-primary">
-                    contact@boundlessbooks.com
+                  <a href="mailto:sdspune1@gmail.com" className="hover:text-primary">
+                    sdspune1@gmail.com
                   </a>
                 </div>
               </CardContent>

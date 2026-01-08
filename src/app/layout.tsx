@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
+import { FloatingCallButton } from '@/components/layout/floating-call-button';
 
 export const metadata: Metadata = {
   title: 'Boundless Books',
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        <FloatingCallButton phoneNumber="9850271425" />
       </body>
     </html>
   );
