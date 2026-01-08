@@ -5,6 +5,7 @@ export function Header() {
   const navItems = [
     { name: 'About Us', href: '/about' },
     { name: 'Services', href: '/services' },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'How It Works', href: '/how-it-works' },
     { name: 'Contact', href: '/contact' },
     { name: 'FAQ', href: '/faq' },

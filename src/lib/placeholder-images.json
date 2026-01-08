@@ -17,6 +17,42 @@
       "description": "A person holding a custom leather-bound book.",
       "imageUrl": "https://images.unsplash.com/photo-1620672071216-3a509d222bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWF0aGVyJTIwYm9va3xlbnwwfHx8fDE3Njc4NjU1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "leather book"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Intricate gold foil details on a classic book cover.",
+      "imageUrl": "https://images.unsplash.com/photo-1763930286396-51eb06f6f23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnb2xkJTIwZm9pbCUyMGJvb2t8ZW58MHx8fHwxNzY3ODY2MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold foil book"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A collection of hand-stitched journals.",
+      "imageUrl": "https://images.unsplash.com/photo-1660324197196-69580168711e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYW5kLXN0aXRjaGVkJTIwam91cm5hbHxlbnwwfHx8fDE3Njc4NjYwMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hand-stitched journal"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Restored antique book with a new spine.",
+      "imageUrl": "https://images.unsplash.com/photo-1632504102499-7dc472b50653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhbnRpcXVlJTIwYm9vayUyMHJlc3RvcmF0aW9ufGVufDB8fHx8MTc2Nzg2NjAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "antique book restoration"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A vibrant, modern book cloth binding.",
+      "imageUrl": "https://images.unsplash.com/photo-1551126665-eee219019a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBib29rJTIwY2xvdGh8ZW58MHx8fHwxNzY3ODY2MDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern book cloth"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Close-up of a perfectly crafted book corner.",
+      "imageUrl": "https://images.unsplash.com/photo-1619992677751-cb736bd47e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwY29ybmVyJTIwZGV0YWlsfGVufDB8fHx8MTc2Nzg2NjAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book corner detail"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Personalized monogram on a leather photo album.",
+      "imageUrl": "https://images.unsplash.com/photo-1741335661519-316ae1e31b03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb25vZ3JhbSUyMGFsYnVtfGVufDB8fHx8MTc2Nzg2NjAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "monogram album"
     }
   ]
 }
