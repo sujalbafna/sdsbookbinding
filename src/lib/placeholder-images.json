@@ -1,13 +1,13 @@
 {
   "placeholderImages": [
     {
-      "id": "thesis-binding",
+      "id": "hardcover-binding",
       "description": "A professionally bound thesis on a wooden table.",
       "imageUrl": "https://images.unsplash.com/photo-1744807868759-b0be87385602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwdGhlc2lzfGVufDB8fHx8MTc2Nzg2NTU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "book thesis"
     },
     {
-      "id": "report-binding",
+      "id": "softcover-binding",
       "description": "A stack of neatly bound corporate reports.",
       "imageUrl": "https://images.unsplash.com/photo-1621347891240-e856b95ec627?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGFjayUyMGJvb2tzfGVufDB8fHx8MTc2Nzc4OTk1NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "stack books"
@@ -17,6 +17,30 @@
       "description": "A person holding a custom leather-bound book.",
       "imageUrl": "https://images.unsplash.com/photo-1620672071216-3a509d222bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWF0aGVyJTIwYm9va3xlbnwwfHx8fDE3Njc4NjU1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "leather book"
+    },
+    {
+      "id": "spiral-binding",
+      "description": "A spiral bound notebook open on a desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1554757387-fa0367573d09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGlyYWwlMjBub3RlYm9va3xlbnwwfHx8fDE3Njc3NzM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spiral notebook"
+    },
+    {
+      "id": "comb-binding",
+      "description": "A report with plastic comb binding.",
+      "imageUrl": "https://images.unsplash.com/photo-1635273051201-003748027b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21iJTIwYmluZGluZ3xlbnwwfHx8fDE3Njc4NjYwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comb binding"
+    },
+    {
+      "id": "notebook-binding",
+      "description": "A custom-made notebook with a unique cover.",
+      "imageUrl": "https://images.unsplash.com/photo-1767627857933-e46e878380ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXN0b20lMjBub3RlYm9va3xlbnwwfHx8fDE3Njc4NjYwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "custom notebook"
+    },
+    {
+      "id": "repair-binding",
+      "description": "An old book being carefully repaired.",
+      "imageUrl": "https://images.unsplash.com/photo-1677412581663-45f6fad8d2ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwcmVwYWlyfGVufDB8fHx8MTc2Nzg2NjA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book repair"
     },
     {
       "id": "gallery-1",

@@ -1,25 +1,49 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { BookText, FileText, Star } from 'lucide-react';
+import { BookText, FileText, Star, Book, Notebook, Wrench, CircleHelpIcon } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const services = [
   {
+    icon: <Book className="h-8 w-8 text-primary" />,
+    title: 'Spiral Binding',
+    description: 'Ideal for reports, presentations, and notebooks. Pages can be folded back 360 degrees.',
+    imageId: 'spiral-binding',
+  },
+  {
+    icon: <CircleHelpIcon className="h-8 w-8 text-primary" />,
+    title: 'Comb Binding',
+    description: 'A cost-effective option for manuals and documents that may need pages added or removed.',
+    imageId: 'comb-binding',
+  },
+  {
     icon: <BookText className="h-8 w-8 text-primary" />,
-    title: 'Thesis & Dissertation Binding',
-    description: 'Archive your academic work with our durable and professional thesis binding services. Multiple cover and paper options available.',
-    imageId: 'thesis-binding',
+    title: 'Hardcover Binding',
+    description: 'The gold standard for durability and a professional finish, perfect for theses and special editions.',
+    imageId: 'hardcover-binding',
   },
   {
     icon: <FileText className="h-8 w-8 text-primary" />,
-    title: 'Report & Manual Binding',
-    description: 'Present your corporate reports, training manuals, and documents in a polished, easy-to-read format.',
-    imageId: 'report-binding',
+    title: 'Softcover Binding',
+    description: 'A flexible and lightweight option, great for novels, poetry collections, and catalogues.',
+    imageId: 'softcover-binding',
+  },
+  {
+    icon: <Notebook className="h-8 w-8 text-primary" />,
+    title: 'Notebook Binding',
+    description: 'Create custom notebooks with your choice of paper, cover, and binding style.',
+    imageId: 'notebook-binding',
+  },
+  {
+    icon: <Wrench className="h-8 w-8 text-primary" />,
+    title: 'Repair & Rebinding',
+    description: 'Breathe new life into old treasures. We repair and rebind cherished books.',
+    imageId: 'repair-binding',
   },
   {
     icon: <Star className="h-8 w-8 text-primary" />,
-    title: 'Custom Book Projects',
-    description: 'Bring your personal project to life. We handle everything from family histories to self-published novels with creative care.',
+    title: 'Custom Binding',
+    description: 'Your vision, our craftsmanship. We create unique, one-of-a-kind books for any occasion.',
     imageId: 'custom-book',
   },
 ];
@@ -36,7 +60,7 @@ export function Services() {
             We offer a range of binding options to suit every need, ensuring your documents are preserved and presented beautifully.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => {
             const image = imageMap.get(service.imageId);
             return (
