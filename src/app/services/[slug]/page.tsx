@@ -1,7 +1,7 @@
 
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { services, Service } from '@/lib/services';
+import { services, Service } from '@/lib/services.tsx';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
@@ -39,8 +39,8 @@ export default function ServicePage({ params }: ServicePageProps) {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
-      <main className="flex-1 py-16 sm:py-24">
-        <div className="container">
+      <main className="flex-1">
+        <div className="container py-12 md:py-16">
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
               <Button asChild>
