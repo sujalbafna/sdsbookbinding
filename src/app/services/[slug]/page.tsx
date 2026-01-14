@@ -35,6 +35,9 @@ export default function ServicePage({ params }: ServicePageProps) {
   }
 
   const image = PlaceHolderImages.find(img => img.id === service.imageId);
+  const phoneNumber = "9850271425";
+  const whatsappMessage = `Hello! I'm interested in a quote for your ${service.title} service.`;
+
 
   return (
     <div className="flex min-h-screen flex-col bg-background">
@@ -100,7 +103,13 @@ export default function ServicePage({ params }: ServicePageProps) {
                     </div>
                     <Separator />
                      <Button asChild className="w-full" size="lg">
-                        <Link href="/contact">Get a Quote</Link>
+                        <Link 
+                          href={`https://wa.me/91${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Get a Quote
+                        </Link>
                     </Button>
                   </CardContent>
                 </Card>
