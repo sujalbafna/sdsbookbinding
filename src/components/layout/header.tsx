@@ -23,7 +23,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="flex items-center space-x-2">
           <BookMarked className="h-7 w-7 text-primary" />
-          <span className="font-bold font-headline text-xl">Boundless Books</span>
+          <span className="font-bold font-headline text-xl">SDS Book Binding</span>
         </Link>
         <nav className="ml-auto hidden items-center space-x-6 text-sm font-medium md:flex">
           {navItems.map((item) => (
@@ -47,7 +47,7 @@ export function Header() {
               <nav className="flex flex-col space-y-4 mt-8">
               <Link href="/" className="flex items-center space-x-2 mb-4">
                 <BookMarked className="h-7 w-7 text-primary" />
-                <span className="font-bold font-headline text-xl">Boundless Books</span>
+                <span className="font-bold font-headline text-xl">SDS Book Binding</span>
               </Link>
                 {navItems.map((item) => (
                   <Link

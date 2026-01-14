@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <Link href="/" className="flex items-center space-x-2">
               <BookMarked className="h-7 w-7" />
-              <span className="font-bold font-headline text-xl">Boundless Books</span>
+              <span className="font-bold font-headline text-xl">SDS Book Binding</span>
             </Link>
           
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
@@ -35,7 +35,7 @@ export function Footer() {
         </div>
         <div className="border-t border-primary-foreground/20 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-primary-foreground/80 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Boundless Books. All rights reserved.
+            &copy; {new Date().getFullYear()} SDS Book Binding. All rights reserved.
           </p>
            <p className="text-sm text-primary-foreground/80 mt-4 md:mt-0">
              Built by your friendly neighborhood AI.

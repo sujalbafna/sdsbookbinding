@@ -15,7 +15,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent className="text-lg text-center text-muted-foreground space-y-4">
                 <p>
-                  Welcome to Boundless Books, where we believe every story deserves to be preserved in a beautifully crafted book.
+                  Welcome to SDS Book Binding, where we believe every story deserves to be preserved in a beautifully crafted book.
                   Our journey began with a simple passion for the art of bookbinding, and a desire to provide a service that honours the content within.
                 </p>
                 <p>

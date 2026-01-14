@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { FloatingCallButton } from '@/components/layout/floating-call-button';
 
 export const metadata: Metadata = {
-  title: 'Boundless Books',
+  title: 'SDS Book Binding',
   description: 'Crafting Legacies, One Page at a Time. Your one-stop shop for professional book binding services.',
 };
 
