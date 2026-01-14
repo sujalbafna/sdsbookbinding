@@ -1,7 +1,7 @@
 
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { services, Service } from '@/lib/services.tsx';
+import { services, Service } from '@/lib/services';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
@@ -17,7 +17,7 @@ type ServicePageProps = {
   };
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return services.map((service) => ({
     slug: service.slug,
   }));
@@ -43,7 +43,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="container py-12 md:py-16">
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
-              <Button asChild>
+              <Button asChild variant="outline">
                 <Link href="/services">
                   <ArrowLeft className="mr-2 h-4 w-4" />
                   Back to All Services

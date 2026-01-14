@@ -1,6 +1,5 @@
 
-
-import { BookText, FileText, Star, Book, Notebook, Wrench, CircleHelpIcon } from 'lucide-react';
+import { BookText, Book, Wrench, BookCopy, BookCheck } from 'lucide-react';
 
 export type Service = {
   slug: string;
@@ -14,66 +13,48 @@ export type Service = {
 
 export const services: Service[] = [
   {
+    slug: 'record-binding',
+    icon: <BookCopy className="h-8 w-8 text-primary" />,
+    title: 'Record Binding',
+    description: 'Professional binding for official records, ensuring longevity and a formal presentation for all your important documents.',
+    imageId: 'record-binding',
+    useCases: ['Official archives', 'Legal documents', 'Historical records', 'Government reports'],
+    benefits: ['Archival quality', 'Tamper-resistant', 'Professional appearance', 'Long-term preservation'],
+  },
+  {
+    slug: 'book-binding',
+    icon: <BookText className="h-8 w-8 text-primary" />,
+    title: 'Book Binding',
+    description: 'Classic and durable book binding for various needs, from personal projects to commercial publications.',
+    imageId: 'hardcover-binding',
+    useCases: ['Novels', 'Photo albums', 'Theses', 'Portfolios'],
+    benefits: ['High durability', 'Premium look and feel', 'Custom cover options', 'Protects pages effectively'],
+  },
+  {
     slug: 'spiral-binding',
     icon: <Book className="h-8 w-8 text-primary" />,
     title: 'Spiral Binding',
-    description: 'Ideal for reports, presentations, and notebooks. Pages can be folded back 360 degrees, allowing them to lie completely flat.',
+    description: 'A practical choice for documents that need to lie flat, perfect for manuals, reports, and notebooks.',
     imageId: 'spiral-binding',
-    useCases: ['Business Reports', 'Academic Papers', 'Training Manuals', 'Planners'],
-    benefits: ['Lies flat when open for easy reading and writing', 'Durable and flexible plastic coil resists crushing', 'Available in a wide range of colors to match your branding'],
+    useCases: ['Presentations', 'Training manuals', 'Notebooks', 'Cookbooks'],
+    benefits: ['Lies flat for easy use', 'Pages can turn 360 degrees', 'Durable and flexible', 'Cost-effective solution'],
   },
   {
-    slug: 'comb-binding',
-    icon: <CircleHelpIcon className="h-8 w-8 text-primary" />,
-    title: 'Comb Binding',
-    description: 'A cost-effective and editable option for documents. The plastic comb spine allows you to add or remove pages after binding.',
-    imageId: 'comb-binding',
-    useCases: ['Cookbooks', 'Proposals', 'Internal Documents', 'Drafts'],
-    benefits: ['Pages can be easily added or removed', 'Very affordable for both small and large batches', 'Lays flat for convenient use'],
-  },
-  {
-    slug: 'hardcover-binding',
-    icon: <BookText className="h-8 w-8 text-primary" />,
-    title: 'Hardcover Binding',
-    description: 'The gold standard for durability and a professional finish. Perfect for theses, dissertations, and special edition books requiring a lasting, premium feel.',
-    imageId: 'hardcover-binding',
-    useCases: ['Theses & Dissertations', 'Heirloom Photo Albums', 'Limited Edition Prints', 'Portfolios'],
-    benefits: ['Maximum durability and protection for important documents', 'Premium, professional, and timeless appearance', 'Long-lasting and archival quality'],
-  },
-  {
-    slug: 'softcover-binding',
-    icon: <FileText className="h-8 w-8 text-primary" />,
-    title: 'Softcover Binding',
-    description: 'Also known as perfect binding, this flexible and lightweight option is great for novels, poetry collections, and catalogues.',
-    imageId: 'softcover-binding',
-    useCases: ['Novels & Poetry Books', 'Company Catalogues', 'Magazines', 'Trade Paperbacks'],
-    benefits: ['Lightweight and portable', 'Cost-effective for larger quantities', 'Professional, bookstore-quality finish'],
-  },
-  {
-    slug: 'notebook-binding',
-    icon: <Notebook className="h-8 w-8 text-primary" />,
-    title: 'Notebook Binding',
-    description: 'Create custom notebooks tailored to your needs. Choose your preferred paper, cover design, and binding style for a truly personal product.',
-    imageId: 'notebook-binding',
-    useCases: ['Personal Journals', 'Branded Corporate Giveaways', 'Sketchbooks', 'Event Mementos'],
-    benefits: ['Fully customizable from cover to cover', 'A unique and personal item', 'Excellent for gifts or promotional materials'],
-  },
-  {
-    slug: 'repair-and-rebinding',
+    slug: 'serailling',
     icon: <Wrench className="h-8 w-8 text-primary" />,
-    title: 'Repair & Rebinding',
-    description: 'Breathe new life into old treasures. We carefully repair and rebind cherished books, preserving their history while restoring their function.',
-    imageId: 'repair-binding',
-    useCases: ['Antique Books', 'Damaged Family Bibles', 'Worn-out Favorite Novels', 'Library Books'],
-    benefits: ['Preserves the sentimental and historical value of a book', 'Restores functionality to damaged books', 'Extends the life of the book for future generations'],
+    title: 'Serailling',
+    description: 'Specialized serailling services for a unique and secure finish on your documents.',
+    imageId: 'custom-book',
+    useCases: ['Special certificates', 'Unique invitations', 'Custom projects', 'Decorative documents'],
+    benefits: ['Unique decorative edge', 'Adds a level of sophistication', 'Customizable patterns', 'Enhances visual appeal'],
   },
   {
-    slug: 'custom-binding',
-    icon: <Star className="h-8 w-8 text-primary" />,
-    title: 'Custom Binding',
-    description: 'Your vision, our craftsmanship. We work with you to create unique, one-of-a-kind books for any special occasion or project.',
-    imageId: 'custom-book',
-    useCases: ['Wedding Albums', 'Artist Portfolios', 'One-of-a-kind Art Books', 'Bespoke Gifts'],
-    benefits: ['A truly unique product tailored to your exact specifications', 'Endless material, color, and style options', 'The perfect way to commemorate a special occasion'],
+    slug: 'binding-record-keeping',
+    icon: <BookCheck className="h-8 w-8 text-primary" />,
+    title: 'Binding & Record Keeping',
+    description: 'Comprehensive service combining professional binding with systematic record keeping for easy management.',
+    imageId: 'record-keeping',
+    useCases: ['Financial reports', 'Medical records', 'Corporate archives', 'Log books'],
+    benefits: ['Organized and accessible records', 'Secure and durable binding', 'Streamlines document management', 'Ensures long-term integrity'],
   },
 ];

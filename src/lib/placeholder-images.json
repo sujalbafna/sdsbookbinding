@@ -13,12 +13,6 @@
       "imageHint": "book thesis"
     },
     {
-      "id": "softcover-binding",
-      "description": "A stack of neatly bound corporate reports.",
-      "imageUrl": "https://images.unsplash.com/photo-1621347891240-e856b95ec627?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGFjayUyMGJvb2tzfGVufDB8fHx8MTc2Nzc4OTk1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stack books"
-    },
-    {
       "id": "custom-book",
       "description": "A person holding a custom leather-bound book.",
       "imageUrl": "https://images.unsplash.com/photo-1620672071216-3a509d222bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWF0aGVyJTIwYm9va3xlbnwwfHx8fDE3Njc4NjU1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -31,22 +25,16 @@
       "imageHint": "spiral notebook"
     },
     {
-      "id": "comb-binding",
-      "description": "A report with plastic comb binding.",
-      "imageUrl": "https://images.unsplash.com/photo-1635273051201-003748027b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21iJTIwYmluZGluZ3xlbnwwfHx8fDE3Njc4NjYwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "comb binding"
+      "id": "record-binding",
+      "description": "A stack of official-looking bound record books.",
+      "imageUrl": "https://images.unsplash.com/photo-1610956738726-8efd3a42f5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZWNvcmQlMjBib29rc3xlbnwwfHx8fDE3NjgzNzE3NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "record books"
     },
     {
-      "id": "notebook-binding",
-      "description": "A custom-made notebook with a unique cover.",
-      "imageUrl": "https://images.unsplash.com/photo-1767627857933-e46e878380ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXN0b20lMjBub3RlYm9va3xlbnwwfHx8fDE3Njc4NjYwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "custom notebook"
-    },
-    {
-      "id": "repair-binding",
-      "description": "An old book being carefully repaired.",
-      "imageUrl": "https://images.unsplash.com/photo-1677412581663-45f6fad8d2ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwcmVwYWlyfGVufDB8fHx8MTc2Nzg2NjA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "book repair"
+      "id": "record-keeping",
+      "description": "An organized shelf of bound records for keeping.",
+      "imageUrl": "https://images.unsplash.com/photo-1618972678293-3112d4cf3e2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcmNoaXZlZCUyMHJlY29yZHN8ZW58MHx8fHwxNzY4MzcxNzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "archived records"
     },
     {
       "id": "testimonial-bg",
