@@ -9,7 +9,6 @@ export function Footer() {
     { name: 'Our Work', href: '/gallery' },
     { name: 'How It Works', href: '/how-it-works' },
     { name: 'Contact', href: '/contact' },
-    { name: 'FAQ', href: '/faq' },
   ];
 
   return (
