@@ -38,7 +38,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} SDS Book Binding. All rights reserved.
           </p>
            <p className="text-sm text-primary-foreground/80 mt-4 md:mt-0">
-             Built by your friendly neighborhood AI.
+             Developed And Hosted By Sujal Bafna
            </p>
         </div>
       </div>
