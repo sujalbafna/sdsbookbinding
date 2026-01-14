@@ -61,7 +61,7 @@ export function Services() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                   <Button asChild variant="outline" className="w-full">
+                   <Button asChild className="w-full">
                       <Link href={`/services/${service.slug}`}>
                         Learn More <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
