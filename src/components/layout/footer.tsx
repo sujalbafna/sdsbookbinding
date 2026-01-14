@@ -38,7 +38,14 @@ export function Footer() {
             &copy; {new Date().getFullYear()} SDS Book Binding. All rights reserved.
           </p>
            <p className="text-sm text-primary-foreground/80 mt-4 md:mt-0">
-             Developed And Hosted By Sujal Bafna
+             <a
+                href="https://www.linkedin.com/in/sujal-bafna-70a343238/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Developed And Hosted By Sujal Bafna
+              </a>
            </p>
         </div>
       </div>
