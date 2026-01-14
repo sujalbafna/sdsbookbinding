@@ -47,9 +47,9 @@ export default function ServicePage({ params }: ServicePageProps) {
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
               <Button asChild>
-                <Link href="/services">
+                <Link href="/">
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Back to All Services
+                  Back to Home
                 </Link>
               </Button>
             </div>
