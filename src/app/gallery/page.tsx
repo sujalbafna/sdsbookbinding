@@ -1,6 +1,6 @@
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -33,7 +33,6 @@ export default function GalleryPage() {
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm text-muted-foreground">{image.description}</p>
                   </CardContent>
                 </Card>
               ))}
