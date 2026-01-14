@@ -46,7 +46,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="container py-12 md:py-16">
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
-              <Button asChild variant="outline">
+              <Button asChild>
                 <Link href="/services">
                   <ArrowLeft className="mr-2 h-4 w-4" />
                   Back to All Services
