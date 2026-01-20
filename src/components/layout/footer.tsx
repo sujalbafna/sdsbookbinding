@@ -18,7 +18,7 @@ export function Footer() {
       <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src={logoUrl} alt="SDS Book Binding Logo" width={28} height={28} />
+              <Image src={logoUrl} alt="SDS Book Binding Logo" width={40} height={40} />
               <span className="font-bold font-headline text-xl">SDS Book Binding</span>
             </Link>
           
