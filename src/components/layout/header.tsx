@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { BookMarked, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -16,12 +17,14 @@ export function Header() {
     { name: 'How It Works', href: '/how-it-works' },
     { name: 'Contact', href: '/contact' },
   ];
+  const logoUrl = "https://i.postimg.cc/fTYmyxtq/Gemini-Generated-Image-lf65eolf65eolf65-modified.png";
+
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="flex items-center space-x-2">
-          <BookMarked className="h-7 w-7 text-primary" />
+          <Image src={logoUrl} alt="SDS Book Binding Logo" width={28} height={28} />
           <span className="font-bold font-headline text-xl">SDS Book Binding</span>
         </Link>
         <nav className="ml-auto hidden items-center space-x-6 text-sm font-medium md:flex">
@@ -45,7 +48,7 @@ export function Header() {
             <SheetContent side="right">
               <nav className="flex flex-col space-y-4 mt-8">
               <Link href="/" className="flex items-center space-x-2 mb-4">
-                <BookMarked className="h-7 w-7 text-primary" />
+                <Image src={logoUrl} alt="SDS Book Binding Logo" width={28} height={28} />
                 <span className="font-bold font-headline text-xl">SDS Book Binding</span>
               </Link>
                 {navItems.map((item) => (

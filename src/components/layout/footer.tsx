@@ -1,4 +1,4 @@
-import { BookMarked } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export function Footer() {
@@ -11,12 +11,14 @@ export function Footer() {
     { name: 'Contact', href: '/contact' },
   ];
 
+  const logoUrl = "https://i.postimg.cc/fTYmyxtq/Gemini-Generated-Image-lf65eolf65eolf65-modified.png";
+
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <Link href="/" className="flex items-center space-x-2">
-              <BookMarked className="h-7 w-7" />
+              <Image src={logoUrl} alt="SDS Book Binding Logo" width={28} height={28} />
               <span className="font-bold font-headline text-xl">SDS Book Binding</span>
             </Link>
           
