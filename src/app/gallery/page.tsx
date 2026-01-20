@@ -19,7 +19,7 @@ export default function GalleryPage() {
                 A selection of our craftsmanship and recent projects.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
               {galleryImages.map((image) => (
                 <Card key={image.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <div className="relative aspect-[4/3] w-full">
@@ -29,7 +29,7 @@ export default function GalleryPage() {
                       fill
                       className="object-cover"
                       data-ai-hint={image.imageHint}
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      sizes="(max-width: 640px) 100vw, 50vw"
                     />
                   </div>
                 </Card>
