@@ -6,6 +6,9 @@ import { FloatingCallButton } from '@/components/layout/floating-call-button';
 export const metadata: Metadata = {
   title: 'SDS Book Binding',
   description: 'Crafting Legacies, One Page at a Time. Your one-stop shop for professional book binding services.',
+  icons: {
+    icon: 'https://i.postimg.cc/fTYmyxtq/Gemini-Generated-Image-lf65eolf65eolf65-modified.png',
+  },
 };
 
 export default function RootLayout({
